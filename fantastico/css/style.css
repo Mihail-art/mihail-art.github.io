@@ -80,19 +80,7 @@ span {
 }
 
 .preview-btn {
-    margin-top: 25px;
-    padding: 12px 35px;
-    background: #84c925;
-    border-radius: 17px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    color: black;
-    border: none;
-    font-family: cursive;
-    font-weight: 600;
-}
-
-.preview-btn:hover {
-    background: #dddddc;
+    color: white;
 }
 
 .logo-well {
@@ -164,9 +152,10 @@ span {
     font-size: 20px;
     font-family: cursive;
     color: #b6b6b6;
+    text-align: center;
 }
 
-.service-btn {
+button {
     margin-top: 28px;
     margin-bottom: 72px;
     padding: 17px 62px;
@@ -180,7 +169,11 @@ span {
     box-shadow: 0 0 9px rgba(0,0,0,1.5);
 }
 
-.service-btn:hover {
+.service-btn {
+    text-align: center;
+}
+
+button:hover {
     cursor: pointer;
     background: #dddddc;
 }
@@ -226,7 +219,7 @@ span {
     .nav {
         display: flex;
         justify-content: flex-end;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     
     .iPhone {
@@ -252,6 +245,7 @@ span {
     
     .preview-contact {
         padding-bottom: 20px;
+        text-align: center;
     }
     
     .well {
@@ -272,6 +266,7 @@ span {
     }
     .project-img {
         margin-bottom: 20px;
+        text-align: center;
         
     }
 }
@@ -287,5 +282,23 @@ span {
     }
     .nav-bar {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .img-well {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 411px) {
+    .img-well {
+        display: none;
+    }
+}
+@media screen and (max-width: 414px) {
+    .img-well {
+        display: none;
     }
 }
