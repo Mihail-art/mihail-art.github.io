@@ -1,0 +1,270 @@
+html {
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+body {
+}
+
+/* logo */
+.header {
+    background: #505866;
+    padding-top: 13px;
+    padding-bottom: 22px;
+}
+
+.nav-bar {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.line {
+    border: 1px solid #3e4550;
+}
+
+a {
+    display: block;
+    margin-left: 50px;
+    color: white;
+    font-family: cursive;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #bebebe;
+}
+
+/* шапка */
+
+.header-inner {
+    background: #454c58;
+}
+
+img {
+    padding-left: 18px;
+}
+
+span {
+    color: #7f8083;
+    margin-top: 23px;
+}
+
+.iPhone {
+    padding-top: 92px;
+}
+
+.preview-title {
+    padding-top: 153px;
+    color: white;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.preview-text {
+    color: #bcbdbd;
+    padding-top: 25px;
+}
+
+.preview-btn {
+    margin-top: 25px;
+    padding: 12px 35px;
+    background: #84c925;
+    border-radius: 17px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: black;
+    border: none;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.preview-btn:hover {
+    background: #dddddc;
+}
+
+.logo-well {
+    background: #555e6d;
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    padding-top: 20px;
+    padding-bottom: 18px;
+}
+
+.well {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-part {
+    width: 306px;
+    text-align: center;
+}
+
+.service-part-icon {
+    color: #505866;
+    text-align: center;
+    border: 5px solid #ffffff;
+    height: 159px;
+    width: 159px;
+    border-radius: 50%;
+    padding-top: 39px;
+    margin: 0 auto;
+}
+
+.fa-wrench {
+    color: white;
+}
+
+.fa-cogs {
+    color: white;
+}
+
+.fa-desktop {
+    color: white;
+}
+
+.service-part-title {
+    font-size: 35px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 600;
+    color: white;
+    margin-top: 25px;
+}
+
+.servies {
+    padding-top: 69px;
+    background: #484f5a;
+}
+
+.service-part-text {
+    margin-top: 26px;
+    font-size: 20px;
+    font-family: cursive;
+    color: #b6b6b6;
+}
+
+.service-btn {
+    margin-top: 28px;
+    margin-bottom: 72px;
+    padding: 17px 62px;
+    background: #84c925;
+    font-family: cursive;
+    font-weight: 600;
+    color: black;
+    font-size: 23px;
+    border-color: black;
+    border-radius: 29px;
+    box-shadow: 0 0 9px rgba(0,0,0,1.5);
+}
+
+.service-btn:hover {
+    cursor: pointer;
+    background: #dddddc;
+}
+
+.project {
+    background: #484f5b;
+}
+
+.project-title {
+    font-size: 28px;
+    font-family: cursive;
+    color: white;
+    padding-top: 45px;
+}
+
+.project-image {
+    padding-top: 39px;
+    padding-bottom: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.project-img {
+    margin-left: 40px;
+}
+
+.footer {
+    text-align: center;
+    color: #7e898f;
+    padding-top: 43px;
+    padding-bottom: 62px;
+    background: #575f6f;
+}
+
+
+@media screen and (max-width: 1024px) {
+    
+    a {
+        margin: 30px 20px;
+    }
+    .nav {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 50px;
+    }
+    
+    .iPhone {
+        display: none;
+    }
+    .preview-title {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .preview-text {
+        text-align: center;
+    }
+    
+    span {
+        text-align: center;
+    }
+    
+    .header-description {
+        text-align: center;
+        width: 650px;
+        margin: 0 auto;
+    }
+    
+    .preview-contact {
+        padding-bottom: 20px;
+    }
+    
+    .well {
+        display: flex;
+        justify-content: space-around;
+    }
+    .service-name {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .service-part {
+        width: 290px;
+    }
+    .project-title {
+        margin-left: 30px;
+    }
+    .project-img {
+        margin-bottom: 20px;
+        
+    }
+}
