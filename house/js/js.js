@@ -3,16 +3,6 @@ $('.sl').slick({
     autoplay: true,
     autoplaySpeed: 2000,
     arrows: false,
-    responsive: [{ 
-      breakpoint: 1024,
-      settings: {
-          dots: false,
-          arrows: false,
-          infinite: false,
-          slidesToShow: 1,
-          slidesToScroll: 1
-      } 
-  }]
 });
 
 $('.project-sl').slick({
