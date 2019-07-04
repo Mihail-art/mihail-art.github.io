@@ -978,6 +978,9 @@ li {
     .nav {
         display: none;
     }
+    .main-text {
+    	width: 100%;
+    }
     .contact {
         padding-top: 30px;
         padding-bottom: 50px;
