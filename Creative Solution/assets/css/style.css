@@ -1,0 +1,101 @@
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row    {
+    width: 100%;
+    clear: both;
+}
+
+.header {
+    background: #ffffff;
+    height: 70px;
+}
+
+.slider {
+    height: 530px;
+    background: #000000;
+}
+
+.services {
+    background: #eeeeee;
+    padding-top: 90px;
+    padding-bottom: 85px;
+    float: left;
+    width: 100%;
+}
+
+.services .card-data {
+    display: none;
+}
+
+.card .wrapper {
+    width: 100%;
+    float: left;
+}
+
+
+.services .card-image {
+    background: deepskyblue;
+    width: 110px;
+    height: 110px;
+    margin: 24px auto 0;
+    border-radius: 50%;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+}
+
+.footer {
+    background: darkgray;
+    padding-top: 55px;
+    padding-bottom: 125px;
+    clear: both;
+    float: left;
+}
+
+.information {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.contact {
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.phone a {
+    text-decoration: none;
+    color: black;
+}
+
+.header .main-menu,
+.header .phone {
+    float: right;
+}
+
+.footer .main-menu {
+    float: none;
+}
+
+.footer .main-menu ul li {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.footer .main-menu a,
+.main-menu a {
+    text-decoration: none;
+    color: black;
+}
