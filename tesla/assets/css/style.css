@@ -21,11 +21,6 @@
 html {
     box-sizing: border-box;
 }
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    padding: 0;
-    font-family: "PFDinTextCondPro-Light";
-}
 header {
     background: url("../img/bg_header.png") center no-repeat;
     background-size: cover;
@@ -164,60 +159,74 @@ input[type="search"] {
 }
 .navi .nav-links {
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     color: #feda00;
     width: 124px;
     vertical-align: middle;
     margin-right: 35px;
+}
+.nav ul li {
+    display: flex;
 }
 .navi ul {
     text-align: center;
 }
 .preview h1 {
     color: white;
+    font-size: 45px;
+    font-family: "PFDinTextCondPro-Bold";
+    font-weight: bold;
 }
 .preview h2 {
     color: white;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: "PFDinTextCondPro-Light";
 }
 .preview p {
     color: white;
+    font-size: 16px;
 }
 .preview .preview-desc {
     margin-top: 20px;
 }
 .timer p {
     color: #feda00;
-    padding-bottom: 56px;
+    margin-top: 25px;
 }
 .preview a {
     color: black;
     background: #feda00;
-    padding: 12px;
+    padding: 14px;
     text-transform: uppercase;
     border-radius: 5px;
-    font-family: "PFDinTextCondPro-Bold";
+    font-family: "PFDinTextCondPro-Medium";
+    font-weight: bold;
 }
 .preview a:hover, .preview a:target, .preview a:focus, .preview a:link, .preview a:visited {
     text-decoration: none;
     color: black;
 }
 .preview-photo {
-    margin-top: 20px;
+    margin-top: 60px;
     text-align: end;
 }
 .product {
     padding-top: 64px;
     padding-bottom: 55px;
 }
-.product h2 {
+.product h2, .advantages h2 {
     text-transform: uppercase;
     text-align: center;
+    font-size: 36px;
+    font-family: "PFDinTextCondPro-Bold";
+    font-weight: bold;
 }
 .product .description {
     text-align: center;
-    width: 862px;
+    width: 1109px;
     margin: 0 auto;
+    font-size: 18px;
+    font-family: "PFDinTextCondPro-Thin";
 }
 .item {
     padding-top: 40px;
@@ -230,11 +239,15 @@ input[type="search"] {
     height: 290px;
     width: 200px;
     padding: 29px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 14px rgba(0,0,0,0.1);
 }
 .cart-title {
     text-align: center;
+    padding-top: 2px;
     padding-bottom: 26px;
+    font-size: 14px;
+    font-family: "PFDinTextCondPro-Medium";
+    font-weight: bold;
 }
 .cart a {
     border: 1px solid #000000;
@@ -245,4 +258,93 @@ input[type="search"] {
 .cart a:hover, .cart a:target, .cart a:focus, .cart a:active, .cart a:visited {
     text-decoration: none;
     color: #000000;
+}
+.timer {
+    text-align: left;
+    padding-bottom: 56px;
+}
+.time {
+    text-align: left;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+.nav a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 16px;
+    font-family: "PFDinTextCondPro-Medium";
+    letter-spacing: 1px;
+}
+.nav a::after {
+    content: "";
+    background: #feda00;
+    padding: 1px 0px 40px 1px;
+    margin-left: 17px;
+}
+.nav a:last-child::after { content:none; }
+.nav a::after:last-child {
+    content: none;
+    margin-left: 0;
+}
+.nav a:last-child {
+    margin-right: 0;
+}
+.nav a:hover, .nav a:active, .nav a:target, .nav a:focus, .nav a:visited {
+    text-decoration: none;
+}
+.nav .text {
+    color: #fedd00;
+    text-transform: uppercase;
+    margin-left: 13px;
+}
+.items-btn {
+    text-align: center;
+    padding-top: 64px;
+}
+.items-btn a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "PFDinTextCondPro-Medium";
+    font-weight: bold;
+    background: #fede00;
+    padding: 15px;
+    border-bottom: 3px solid #c19800;
+    border-left: 1px solid #c19800;
+    box-shadow: 0 0 14px rgba(0,0,0,0.5);
+}
+.items-btn a:hover, .items-btn a:target, .items-btn a:visited, .items-btn a:active, .items-btn a:focus {
+    text-decoration: none;
+    color: #000000;
+}
+.advantages h3 {
+    font-family: "PFDinTextCondPro-Bold";
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 0;
+}
+.advantages img {
+    width: 462px;
+}
+
+.advantages p {
+    font-size: 18px;
+    font-family: "PFDinTextCondPro-Thin";
+    line-height: 24px;
+}
+.advantages span {
+    font-family: "PFDinTextCondPro-Medium";
+    font-weight: bold;
+    font-size: 18px;
+}
+.test {
+    margin-top: 32px;
+    margin-bottom: 50px;
 }
