@@ -1,2 +1,0 @@
-[2019-07-06 22:53:19] layer "email@shelter.com": Unsupported extension: com
-[2019-07-06 22:53:19] layer "+13 674 567 75 54": Expected Either a default asset specification or a layer asset specification but "+" found.
