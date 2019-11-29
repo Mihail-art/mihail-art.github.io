@@ -448,7 +448,7 @@ button[type=submit] {
    background: #e1e0e0;
 }
 .content p::-webkit-scrollbar-thumb {
-    background: url('/assets/img/thumbs.png') no-repeat;
+    background: url('../img/thumbs.png') no-repeat;
 }
 table {
     display: none;
